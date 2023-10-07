@@ -1,0 +1,296 @@
+﻿  Compiling CUDA source file dye.cu...
+  
+  C:\Users\史孟玄\Downloads\CUDA_FluidSimulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x64" -x cu  -I"C:\Users\史孟玄\Downloads\CUDA_FluidSimulation\..\SFML\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\dye.cu.obj "C:\Users\史孟玄\Downloads\CUDA_FluidSimulation\dye.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\sm_20_intrinsics.h(1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\史孟玄\Downloads\SFML\include\SFML/System/String.hpp(527): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Window/Window.hpp(549): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Transformable.hpp(319): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Transformable.hpp(320): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Transformable.hpp(322): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Vertex.hpp(97): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Vertex.hpp(99): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/VertexArray.hpp(190): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shape.hpp(309): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shape.hpp(315): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shape.hpp(316): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/ConvexShape.hpp(115): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Glyph.hpp(55): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Glyph.hpp(56): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Image.hpp(266): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Image.hpp(267): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Texture.hpp(619): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Texture.hpp(620): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Font.hpp(354): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Font.hpp(355): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Font.hpp(356): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/RectangleShape.hpp(102): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/View.hpp(272): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/View.hpp(273): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/View.hpp(275): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/RenderTarget.hpp(476): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shader.hpp(750): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shader.hpp(751): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Sprite.hpp(220): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Text.hpp(449): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\sm_20_intrinsics.h(1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\史孟玄\Downloads\SFML\include\SFML/System/String.hpp(527): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Window/Window.hpp(549): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Transformable.hpp(319): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Transformable.hpp(320): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Transformable.hpp(322): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Vertex.hpp(97): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Vertex.hpp(99): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/VertexArray.hpp(190): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shape.hpp(309): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shape.hpp(315): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shape.hpp(316): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/ConvexShape.hpp(115): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Glyph.hpp(55): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Glyph.hpp(56): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Image.hpp(266): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Image.hpp(267): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Texture.hpp(619): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Texture.hpp(620): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Font.hpp(354): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Font.hpp(355): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Font.hpp(356): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/RectangleShape.hpp(102): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/View.hpp(272): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/View.hpp(273): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/View.hpp(275): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/RenderTarget.hpp(476): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shader.hpp(750): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Shader.hpp(751): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Sprite.hpp(220): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+C:\Users\史孟玄\Downloads\SFML\include\SFML/Graphics/Text.hpp(449): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+  dye.cu
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(319): warning C4244: '=': 將 'float' 轉換為 'sf::Uint8'，由於類型不同，可能導致資料遺失
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(320): warning C4244: '=': 將 'float' 轉換為 'sf::Uint8'，由於類型不同，可能導致資料遺失
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(321): warning C4244: '=': 將 'float' 轉換為 'sf::Uint8'，由於類型不同，可能導致資料遺失
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(364): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(388): warning C4244: '引數': 將 'T' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(388): warning C4244: '引數': 將 'T' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(389): warning C4244: '引數': 將 'T' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+C:/Users/史孟玄/Downloads/CUDA_FluidSimulation/dye.cu(389): warning C4244: '引數': 將 'T' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+velocity.cu.obj : error LNK2005: "public: __cdecl Solver::Solver(int,int,int)" (??0Solver@@QEAA@HHH@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "public: __cdecl Solver::~Solver(void)" (??1Solver@@QEAA@XZ) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "public: void __cdecl Solver::update(float,struct float2,struct float2,unsigned char *)" (?update@Solver@@QEAAXMUfloat2@@0PEAE@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "public: void __cdecl Solver::print(struct float4 *)" (?print@Solver@@QEAAXPEAUfloat4@@@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl swap(struct float4 * &,struct float4 * &)" (?swap@@YAXAEAPEAUfloat4@@0@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "float __cdecl _clampTo_0_1(float)" (?_clampTo_0_1@@YAMM@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl setBoundary(struct float4 *,float,int,int)" (?setBoundary@@YAXPEAUfloat4@@MHH@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl cuda_addForce(int,int,struct float2,struct float2,struct float4 *,struct float4 *)" (?cuda_addForce@@YAXHHUfloat2@@0PEAUfloat4@@1@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl cuda_advect(int,int,float,struct float4 *,struct float4 *)" (?cuda_advect@@YAXHHMPEAUfloat4@@0@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl cuda_divergence(int,int,struct float4 *,struct float4 *,struct float4 *)" (?cuda_divergence@@YAXHHPEAUfloat4@@00@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl cuda_jacobi(int,int,float,float,struct float4 *,struct float4 *,struct float4 *)" (?cuda_jacobi@@YAXHHMMPEAUfloat4@@00@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl cuda_subgradient(int,int,struct float4 *,struct float4 *,struct float4 *)" (?cuda_subgradient@@YAXHHPEAUfloat4@@00@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl cuda_print(struct float4 *)" (?cuda_print@@YAXPEAUfloat4@@@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: main 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z11setBoundaryP6float4fii(struct float4 *,float,int,int)" (?__device_stub__Z11setBoundaryP6float4fii@@YAXPEAUfloat4@@MHH@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z13cuda_addForceii6float2S_P6float4S1_(int,int,struct float2 &,struct float2 &,struct float4 *,struct float4 *)" (?__device_stub__Z13cuda_addForceii6float2S_P6float4S1_@@YAXHHAEAUfloat2@@0PEAUfloat4@@1@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z11cuda_advectiifP6float4S0_(int,int,float,struct float4 *,struct float4 *)" (?__device_stub__Z11cuda_advectiifP6float4S0_@@YAXHHMPEAUfloat4@@0@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z15cuda_divergenceiiP6float4S0_S0_(int,int,struct float4 *,struct float4 *,struct float4 *)" (?__device_stub__Z15cuda_divergenceiiP6float4S0_S0_@@YAXHHPEAUfloat4@@00@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z11cuda_jacobiiiffP6float4S0_S0_(int,int,float,float,struct float4 *,struct float4 *,struct float4 *)" (?__device_stub__Z11cuda_jacobiiiffP6float4S0_S0_@@YAXHHMMPEAUfloat4@@00@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z16cuda_subgradientiiP6float4S0_S0_(int,int,struct float4 *,struct float4 *,struct float4 *)" (?__device_stub__Z16cuda_subgradientiiP6float4S0_S0_@@YAXHHPEAUfloat4@@00@Z) 已在 dye.cu.obj 中定義過了
+velocity.cu.obj : error LNK2005: "void __cdecl __device_stub__Z10cuda_printP6float4(struct float4 *)" (?__device_stub__Z10cuda_printP6float4@@YAXPEAUfloat4@@@Z) 已在 dye.cu.obj 中定義過了
+     正在建立程式庫 C:\Users\史孟玄\Downloads\CUDA_FluidSimulation\x64\Debug\CUDA_FluidSimulation.lib 和物件 C:\Users\史孟玄\Downloads\CUDA_FluidSimulation\x64\Debug\CUDA_FluidSimulation.exp
+C:\Users\史孟玄\Downloads\CUDA_FluidSimulation\x64\Debug\CUDA_FluidSimulation.exe : fatal error LNK1169: 找到有一或多個已定義的符號
